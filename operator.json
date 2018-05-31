@@ -1,0 +1,17 @@
+{
+  "name": "base change",
+  "description": "base change",
+  "tags": ["simple statistics", "Pharma"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/basechange_operator"],
+  "properties": [
+  {
+    "kind": "BooleanProperty",
+    "name": "percentage",
+    "defaultValue": false,
+    "description": "A logical variable indicating whether to return it as a percentage. If TRUE then it returns a percentage."
+  }
+  ]
+}
+
+
