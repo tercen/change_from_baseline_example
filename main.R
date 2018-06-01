@@ -38,6 +38,6 @@ if (nrow(unique(ctx$select(c('.axisIndex')))) != 2)
 ctx %>%
   select(.ci, .ri, .y, .axisIndex) %>%
   group_by(.ci, .ri) %>%
-  do(do.bc(., logical(ctx$op.value('percentage')))) %>%
+  do(do.bc(., as.logical(ctx$op.value('percentage')))) %>%
   ctx$addNamespace() %>%
   ctx$save()
