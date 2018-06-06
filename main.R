@@ -17,12 +17,12 @@ do.bc = function(df, percentage_format) {
   data <- data_tbl$value
   
   if (length(data) == 0) data = NaN
+   
+  basechange <- (data-base)/base
   
   if ((data == 0) &&  (base ==0)) basechange <- 0
    
-  basechange <- (data-base)/base
-   
-   if (percentage_format == TRUE) basechange <- (basechange * 100)
+  if (percentage_format == TRUE) basechange <- (basechange * 100)
 
   return(data.frame(
     .ri = df$.ri[1],
