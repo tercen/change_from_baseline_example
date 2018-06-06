@@ -18,7 +18,9 @@ do.bc = function(df, percentage_format) {
   
   if (length(data) == 0) data = NaN
   
-   basechange <- data/base
+  if ((data == 0) &&  (base ==0)) basechange <- 0
+   
+  basechange <- (data-base)/base
    
    if (percentage_format == TRUE) basechange <- (basechange * 100)
 
