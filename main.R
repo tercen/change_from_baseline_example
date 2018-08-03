@@ -20,7 +20,10 @@ do.bc = function(df, percentage_format) {
    
   basechange <- (data-base)/base
   
-  if ((data == 0) &&  (base ==0)) basechange <- 0
+  if (!is.na(data) && !is.na(base)) {
+    if ((data == 0) &&  (base == 0))
+      basechange <- 0
+  }
    
   if (percentage_format == TRUE) basechange <- (basechange * 100)
 
