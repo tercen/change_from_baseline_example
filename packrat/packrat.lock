@@ -6,8 +6,8 @@ Repos: CRAN=http://cran.rstudio.com/,
 
 Package: BH
 Source: CRAN
-Version: 1.60.0-2
-Hash: be2967bcff307e561d9ba17faf03205c
+Version: 1.66.0-1
+Hash: 4cc8883584b955ed01f38f68bc03af6d
 
 Package: R6
 Source: CRAN
@@ -54,7 +54,7 @@ Hash: e3318ec2d42d15a38485bab047d114ba
 Package: dplyr
 Source: CRAN
 Version: 0.7.4
-Hash: 34682779696e3d66aff458b1698b11f5
+Hash: cf677ec8dad7a45d1397dd7e72ef30c6
 Requires: BH, R6, Rcpp, assertthat, bindrcpp, glue, magrittr,
     pkgconfig, plogr, rlang, tibble
 
@@ -117,32 +117,32 @@ Hash: 647e2e50a72557d1a770dcd6701e562b
 
 Package: rtson
 Source: github
-Version: 1.4
-Hash: 473b8049bcd0e3b9bf7c28cfe24db8f9
+Version: 1.4.4
+Hash: f41468e22b9401b04bcf834f2f6e8b40
 Requires: R6
 GithubRepo: TSON
 GithubUsername: tercen
-GithubRef: 1.4-rtson
-GithubSha1: efea4bdc41d67e979199ba80376d41ec7fe7208f
+GithubRef: 1.4.4-rtson
+GithubSha1: 01c0ff70ed30b7332f506403713158959492f8ca
 GithubSubdir: rtson
 RemoteHost: https://api.github.com
 RemoteRepo: TSON
 RemoteUsername: tercen
-RemoteSha: efea4bdc41d67e979199ba80376d41ec7fe7208f
+RemoteSha: 01c0ff70ed30b7332f506403713158959492f8ca
 
 Package: tercen
 Source: github
-Version: 0.6.2
-Hash: 1b8f582100f05268401b4ed0b5ad1b32
+Version: 0.7.1
+Hash: 395a2ad9de89c60c3e44aeb118ffb6d2
 Requires: R6, dplyr, httr, jsonlite, rtson, tibble, yaml
 GithubRepo: teRcen
 GithubUsername: tercen
-GithubRef: 0.6.2
-GithubSha1: 13949d4bbee02425b400a48b27d9554046c0a083
+GithubRef: 0.7.1
+GithubSha1: 4f6cae07ca68202680409fb985db18be63a2e89a
 RemoteHost: https://api.github.com
 RemoteRepo: teRcen
 RemoteUsername: tercen
-RemoteSha: 13949d4bbee02425b400a48b27d9554046c0a083
+RemoteSha: 4f6cae07ca68202680409fb985db18be63a2e89a
 
 Package: tibble
 Source: CRAN
