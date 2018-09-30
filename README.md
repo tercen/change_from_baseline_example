@@ -1,17 +1,29 @@
-# FoldChange : Fold change
+# basechange operator
 
-# Repository
-```
-https://github.com/tercen/basechange_operator.git
-```
+#### Description
+`basechange` operator performs a basechange calculation of a base value compared to a given data point.
 
-## Deploy
+##### Usage
+Input projection|.
+---|---
+`layer1`, `y-axis`  | data point to be compared with base
+`layer2`, `y-axis`  | base value
 
-```R
-packrat::init(options = list(use.cache = TRUE))
-```
+Input parameters|.
+---|---
+`percentage`   | boolean, indicates to return the basechange as a percentage
 
-# Feedback
+Output relations|.
+---|---
+`basechange`| numeric, basechange value, per cell
 
-# Documentation
-see the doc directory
+
+##### Details
+`basechange` operator performs a basechange calculation of a base value compared to a given data point.
+
+#### References
+
+##### See Also
+
+
+#### Examples
