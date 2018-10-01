@@ -6,8 +6,8 @@
 ##### Usage
 Input projection|.
 ---|---
-`layer1`, `y-axis`  | data point to be compared with base
-`layer2`, `y-axis`  | base value
+`y-axis`,`layer1`| data point to be compared with base
+`y-axis`,`layer2`| base value
 
 Input parameters|.
 ---|---
