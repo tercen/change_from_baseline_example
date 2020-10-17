@@ -1,7 +1,7 @@
 {
   "name": "base change",
   "description": "base change",
-  "tags": ["simple statistics", "Pharma"],
+  "tags": ["data wrangling", "Pharma", "transform", "data transformation"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/basechange_operator"],
   "properties": [
