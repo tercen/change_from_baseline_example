@@ -1,9 +1,11 @@
-# basechange operator
+# Base change operator
 
-#### Description
+##### Description
+
 `basechange` operator performs a basechange calculation of a base value compared to a given data point.
 
 ##### Usage
+
 Input projection|.
 ---|---
 `y-axis`,`layer1`| data point to be compared with base
@@ -17,13 +19,6 @@ Output relations|.
 ---|---
 `basechange`| numeric, basechange value, per cell
 
-
 ##### Details
+
 `basechange` operator performs a basechange calculation of a base value compared to a given data point.
-
-#### References
-
-##### See Also
-
-
-#### Examples
