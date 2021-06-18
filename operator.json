@@ -1,6 +1,6 @@
 {
-  "name": "base change",
-  "description": "base change",
+  "name": "Base Change",
+  "description": "Calculates the difference of value from a baseline value. Useful for comparing values with a reference value",
   "tags": ["data wrangling", "Pharma", "transform", "data transformation"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/basechange_operator"],
