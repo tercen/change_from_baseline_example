@@ -13,7 +13,7 @@ Input projection|.
 
 Input parameters|.
 ---|---
-`percentage`   | logical, indicates if the basechange is retuend as a percentage
+`percentage`   | logical, indicates if the basechange is returned as a percentage
 
 Output relations|.
 ---|---
