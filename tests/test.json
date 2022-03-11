@@ -1,0 +1,21 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "Base change",
+  "namespace": "ds8",
+  "inputDataUri": "c04_simple_measurement2_design.tsv",
+  "outputDataUri": ["table1.csv","table2.csv"],
+  "layer1":[
+  "columns": [],
+  "rows": ["Variable"],
+  "colors": [],
+  "labels": [],
+  "yAxis": "Measurement",
+  "xAxis": ""],
+  "layer2":[
+  "columns": [],
+  "rows": ["Variable"],
+  "colors": [],
+  "labels": [],
+  "yAxis": "Measurement2",
+  "xAxis": ""]
+}
