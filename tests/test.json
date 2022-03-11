@@ -4,7 +4,7 @@
   "namespace": "ds8",
   "inputDataUri": "c04_simple_measurement2_design.tsv",
   "outputDataUri": ["table1.csv","table2.csv"],
-  "layer":[
+  "layers":[
   {
   "columns": [],
   "rows": ["Variable"],
