@@ -4,22 +4,11 @@
   "namespace": "ds8",
   "inputDataUri": "c04_simple_measurement2_design.tsv",
   "outputDataUri": ["table1.csv","table2.csv"],
-  "layers":[
-  {
   "columns": [],
   "rows": ["Variable"],
   "colors": [],
   "labels": [],
   "yAxis": "Measurement",
-  "xAxis": ""]
-  },
-  {
-  "columns": [],
-  "rows": ["Variable"],
-  "colors": [],
-  "labels": [],
-  "yAxis": "Measurement2",
-  "xAxis": ""
-  }
-  ]
+  "xAxis": "",
+  "axis": "Axis"
 }
