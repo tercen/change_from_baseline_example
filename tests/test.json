@@ -10,5 +10,5 @@
   "labels": [],
   "yAxis": "Measurement",
   "xAxis": "",
-  "axis": "Axis"
+  "axis": ["Axis"]
 }
