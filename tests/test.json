@@ -8,6 +8,6 @@
   "rows": ["Variable"],
   "colors": [[],[]],
   "labels": [[],[]],
-  "yAxis": ["Measurement"],
-  "xAxis": [""]
+  "yAxis": ["Measurement", "Measurement2"],
+  "xAxis": ["", ""]
 }
