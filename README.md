@@ -1,24 +1,24 @@
-# Base change operator
+# Change from baseline operator
 
 ##### Description
 
-`basechange` operator performs a basechange calculation of a base value compared to a given data point.
+`change_from_baseline` operator performs a change from baseline calculation of a baseline value compared to a given data point.
 
 ##### Usage
 
 Input projection|.
 ---|---
-`y-axis`,`layer1`| data point to be compared with base
-`y-axis`,`layer2`| base value
+`y-axis`,`layer1`| data point to be compared with baseline
+`y-axis`,`layer2`| baseline value
 
 Input parameters|.
 ---|---
-`percentage`   | logical, indicates if the basechange is returned as a percentage
+`percentage`   | logical, indicates if the baseline is returned as a percentage
 
 Output relations|.
 ---|---
-`basechange`| numeric, basechange value, per cell
+`change`| numeric, change value, per cell
 
 ##### Details
 
-`basechange` operator performs a basechange calculation of a base value compared to a given data point.
+`change_from_baseline` operator performs a change from baseline calculation of a baseline value compared to a given data point.

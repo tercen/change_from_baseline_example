@@ -1,15 +1,15 @@
 {
-  "name": "Base Change",
-  "description": "Calculates the difference of value from a baseline value. Useful for comparing values with a reference value",
-  "tags": ["data wrangling", "Pharma", "transform", "data transformation"],
+  "name": "Change from baseline",
+  "description": "Calculates the absolute or relative change of a given value from a baseline value.",
+  "tags": ["data wrangling"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/basechange_operator"],
+  "urls": ["https://github.com/tercen/change_from_baseline_operator"],
   "properties": [
   {
     "kind": "BooleanProperty",
     "name": "percentage",
     "defaultValue": false,
-    "description": "A logical variable indicating whether to return it as a percentage. If TRUE then it returns a percentage."
+    "description": "A logical variable indicating whether to return it as a percentage (relative change). If TRUE then it returns a percentage."
   }
   ]
 }

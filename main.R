@@ -7,9 +7,9 @@ do.bc = function(df, percentage_format) {
   base_tbl <- df %>% group_by(.axisIndex) %>% 
      summarise(value = mean(.y)) %>% 
      filter(.axisIndex == 1)
-  base <- base_tbl$value
+  baseline <- base_tbl$value
   
-  if (length(base) == 0) base = NaN
+  if (length(baseline) == 0) baseline = NaN
   
   data_tbl <- df %>% group_by(.axisIndex) %>% 
     summarise(value = mean(.y)) %>% 
@@ -18,26 +18,26 @@ do.bc = function(df, percentage_format) {
   
   if (length(data) == 0) data = NaN
    
-  basechange <- (data-base)/base
+  change <- (data - baseline) / baseline
   
-  if (!is.na(data) && !is.na(base)) {
-    if ((data == 0) &&  (base == 0))
-      basechange <- 0
+  if (!is.na(data) && !is.na(baseline)) {
+    if ((data == 0) &&  (baseline == 0))
+      change <- 0
   }
    
-  if (percentage_format == TRUE) basechange <- (basechange * 100)
+  if (percentage_format == TRUE) change <- (change * 100)
 
   return(data.frame(
     .ri = df$.ri[1],
     .ci = df$.ci[1],
-    basechange = basechange
+    change = change
   ))
 }
 
 ctx = tercenCtx()
 
 if (nrow(unique(ctx$select(c('.axisIndex')))) != 2)
-  stop("Two layers are required, one with the data value and with the base value")
+  stop("Two layers are required, one with the data value and with the baseline value.")
 
 
 ctx %>%
