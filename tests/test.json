@@ -6,8 +6,8 @@
   "outputDataUri": ["table1.csv","table2.csv"],
   "columns": [],
   "rows": ["Variable"],
-  "colors": [[],[]],
-  "labels": [[],[]],
+  "colors": [],
+  "labels": [],
   "yAxis": ["Measurement", "Measurement2"],
   "xAxis": ["", ""]
 }
