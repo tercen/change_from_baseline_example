@@ -9,5 +9,5 @@
   "colors": [],
   "labels": [],
   "yAxis": ["Measurement", "Measurement2"],
-  "xAxis": ["", ""]
+  "xAxis": ""
 }
